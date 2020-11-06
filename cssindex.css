@@ -18,14 +18,13 @@ body {
 }
 
 .navelement {
-  margin-left: 30%;
   display: inline;
   list-style-type: none;
-  margin: 0 30px;
+  margin: 0 3%;
 }
 
 .navelement2 {
-  margin-left: 500px;
+  margin-left: 30%;
 }
 
 .navelement a {
@@ -284,4 +283,113 @@ div.desc {
 
 .temazapiski {
   margin: 20px 0 40px 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .banner {
+    width: 100%;
+  }
+
+  .novice {
+    width: 100%;
+  }
+
+  .subelj {
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .stanislava {
+    width: 100%;
+  }
+
+  .nov {
+    display: inline-block;
+    margin: 0 1%;
+  }
+
+  .nov1 {
+    width: 61%;
+  }
+
+  .nov2 {
+    width: 32%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navelement2 {
+    margin-left: 15%;
+  }
+
+  .nov {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  h5 {
+    display: inline-block;
+  }
+
+  .novice {
+    width: 100%;
+    margin: 0;
+  }
+
+  .lastspo {
+    padding: 23px 30.1%;
+  }
+
+  .lastkem {
+    padding: 23px 29.3%;
+  }
+
+  .lastits {
+    padding: 23px 33.3%;
+  }
+
+  .lastzgo {
+    padding: 23px 28.7%;
+  }
+
+  .videok {
+    padding: 23px 35%;
+  }
+
+  .empty {
+    padding: 23px 49.3%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .navelement2 {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navelement2 {
+    margin-left: 0;
+  }
+
+  .navelement {
+    margin: 0 1%;
+  }
+
+  .downloadwidget {
+    width: 60%;
+  }
+
+  .downloadwidget a {
+    padding: 40px;
+  }
+
+  .videok {
+    padding: 23px 32%;
+  }
+  .novideok {
+    padding: 23px 32%;
+  }
 }
