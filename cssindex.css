@@ -38,6 +38,10 @@ body {
   color: #a53739;
 }
 
+.active a {
+  text-decoration: underline;
+}
+
 .undernav {
   display: inline-block;
   width: 100%;
