@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", "sans-serif";
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  border-bottom: #a53739 solid thick;
+}
+
+.gssrm-logo {
+  margin-left: 200px;
+  width: 150px;
+  padding: 0;
+}
+
+.navelement {
+  margin-left: 30%;
+  display: inline;
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.navelement2 {
+  margin-left: 500px;
+}
+
+.navelement a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.navelement a:hover {
+  color: #a53739;
+}
+
+.undernav {
+  display: inline-block;
+  width: 100%;
+}
+
+.novice {
+  display: inline-block;
+  width: 16%;
+  height: 550px;
+}
+
+.banner {
+  display: block;
+  width: 82.3%;
+  float: left;
+  margin-right: 10px;
+}
+
+.subelj {
+  width: 100%;
+  padding-bottom: 40px;
+  border-bottom: black solid thick;
+}
+
+.stanislava {
+  width: 100%;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  height: 100px;
+  padding: 20px 0 20px 60px;
+}
+
+footer a {
+  display: inline;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+table.hovertable {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  border-width: 1px;
+  border-color: #000000;
+  border-collapse: collapse;
+  margin-top: 2px;
+  border-top: none;
+}
+table.hovertable th {
+  background-color: #d5d7df;
+  color: rgb(0, 0, 0);
+  border-width: 1px;
+  padding: 0px;
+  border-style: solid;
+  font-size: 17px;
+  border-color: #000000;
+}
+table.hovertable tr {
+  background-color: #ffffff;
+}
+table.hovertable td {
+  border-width: 1px;
+  padding: 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  margin: 0;
+  width: 15%;
+}
+
+.linkbtn:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.linkbtn {
+  padding: 23px 50%;
+  border: black solid thin;
+  background-color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.linkbtn:hover {
+  color: #000000;
+}
+
+.videok {
+  background-color: #81c2ff;
+}
+
+.videok:hover {
+  background-color: rgb(143, 233, 255);
+}
+
+.lastits {
+  padding: 23px 42%;
+}
+
+.empty {
+  background-color: rgb(233, 233, 233);
+  padding: 23px 49.9%;
+  padding: 23px 49.9%;
+}
+
+.prvi {
+  border-left: none;
+}
+
+.lastkem {
+  padding: 23px 40%;
+}
+
+.empty:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.lastspo {
+  padding: 23px 40.5%;
+}
+
+.lastzgo {
+  padding: 23px 39.7%;
+}
+
+.passwordslika {
+  width: 100px;
+  padding: 20px;
+}
+
+.downloadwidget {
+  background-color: rgb(70, 70, 70);
+  display: inline-block;
+  color: rgb(230, 230, 230);
+  width: 15%;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 7px;
+}
+
+.tip {
+  margin: 5px 0 0 75px;
+  display: inline;
+}
+
+.downloadwidget a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.downloadbtn {
+  background-color: rgb(158, 158, 158);
+  padding: 5px;
+  margin: 40px;
+  border-radius: 7px;
+}
+
+.downloadbtn:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.downloadlogo {
+  width: 15%;
+}
+
+.avtor {
+  text-align: right;
+  margin: 0 0 0 0;
+}
+
+.pylogo {
+  width: 16px;
+  margin-top: 5px;
+}
+.blendlogo {
+  width: 19px;
+  margin-top: 5px;
+}
+.red {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-color: #a53739;
+}
