@@ -132,7 +132,7 @@ table.hovertable td {
 }
 
 .linkbtn {
-  padding: 23px 50%;
+  padding: 23px 43%;
   border: black solid thin;
   background-color: #ffffff;
   margin: 0;
@@ -199,7 +199,7 @@ table.hovertable td {
 }
 
 .tip {
-  margin: 5px 0 0 75px;
+  margin: 15px 0 0 72px;
   display: inline;
 }
 
@@ -212,14 +212,14 @@ table.hovertable td {
 }
 
 .downloadbtn {
-  background-color: rgb(158, 158, 158);
+  background-color: rgb(199, 199, 199);
   padding: 5px;
   margin: 40px;
   border-radius: 7px;
 }
 
 .downloadbtn:hover {
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(243, 243, 243);
 }
 
 .downloadlogo {
@@ -243,4 +243,15 @@ table.hovertable td {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   background-color: #a53739;
+}
+
+.blue {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-color: #1400c4;
+}
+
+.amonglogo {
+  width: 20px;
+  margin-top: 5px;
 }
