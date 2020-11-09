@@ -139,13 +139,15 @@ table.hovertable td {
 }
 
 .linkbtn {
-  padding: 23px 43%;
+  padding: 23px 46%;
   border: black solid thin;
   background-color: #ffffff;
   margin: 0;
   text-decoration: none;
   color: black;
   font-size: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .linkbtn:hover {
@@ -190,77 +192,56 @@ table.hovertable td {
   padding: 23px 39.7%;
 }
 
-.passwordslika {
-  width: 100px;
-  padding: 20px;
+.downloadi {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.downloadwidget {
-  background-color: rgb(70, 70, 70);
-  display: inline-block;
-  color: rgb(230, 230, 230);
-  width: 223px;
-  padding: 5px;
-  margin: 20px;
-  border-radius: 7px;
+.widgeti {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: 40px;
 }
 
-.tip {
-  margin: 15px 0 0 72px;
-  display: inline;
+.widget {
+  width: 100%;
+  height: 18em;
+  background-color: rgb(134, 134, 134);
+  border-radius: 1.5em;
+  font-size: 16px;
 }
 
-.downloadwidget a {
+.widget a {
   text-decoration: none;
-  text-align: center;
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-  padding: 20px;
+  color: black;
+}
+
+.downloadbtn p:hover {
+  background-color: rgb(219, 219, 219);
 }
 
 .downloadbtn {
-  background-color: rgb(199, 199, 199);
-  padding: 5px;
-  margin: 40px;
-  border-radius: 7px;
+  margin: 20%;
 }
 
-.downloadbtn:hover {
-  background-color: rgb(243, 243, 243);
+.downloadbtn p {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: rgb(201, 199, 199);
+  border-radius: 15px;
+  color: rgb(39, 39, 39);
+  text-decoration: none;
 }
 
-.downloadlogo {
-  width: 15%;
+.tipdatoteke {
+  text-align: center;
 }
 
 .avtor {
-  text-align: right;
-  margin: 0 0 0 0;
-}
-
-.pylogo {
-  width: 16px;
-  margin-top: 5px;
-}
-.blendlogo {
-  width: 19px;
-  margin-top: 5px;
-}
-.red {
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  background-color: #a53739;
-}
-
-.blue {
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  background-color: #1400c4;
-}
-
-.amonglogo {
-  width: 20px;
-  margin-top: 5px;
+  text-align: center;
 }
 
 div.gallery {
@@ -398,6 +379,7 @@ div.desc {
 
   .downloadwidget {
     width: 60%;
+    text-align: center;
   }
 
   .downloadwidget a {
@@ -414,6 +396,12 @@ div.desc {
   .navbar {
     padding: 0;
     margin: 0;
+  }
+
+  .animation {
+    width: 300px;
+    margin: 0 20px;
+    align-items: center;
   }
 }
 
