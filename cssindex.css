@@ -130,6 +130,10 @@ table.hovertable td {
   width: 15%;
 }
 
+.dankratek {
+  display: none;
+}
+
 .linkbtn:hover {
   background-color: rgb(177, 177, 177);
 }
@@ -367,6 +371,20 @@ div.desc {
   .navelement2 {
     margin-left: 5%;
   }
+
+  .dandolg {
+    display: none;
+  }
+  .dankratek {
+    display: table-cell;
+    background-color: #d5d7df;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    padding: 0px;
+    border-style: solid;
+    font-size: 17px;
+    border-color: #000000;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -375,7 +393,7 @@ div.desc {
   }
 
   .navelement {
-    margin: 0 1%;
+    margin: 0;
   }
 
   .downloadwidget {
@@ -391,5 +409,40 @@ div.desc {
   }
   .novideok {
     padding: 23px 32%;
+  }
+
+  .navbar {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .videok {
+    padding: 23px 20%;
+  }
+
+  .lastspo {
+    padding: 23px 25%;
+  }
+
+  .lastkem {
+    padding: 23px 29.3%;
+  }
+
+  .lastits {
+    padding: 23px 33.3%;
+  }
+
+  .lastzgo {
+    padding: 23px 0;
+  }
+
+  .videok {
+    padding: 23px 35%;
+  }
+
+  .empty {
+    padding: 23px 49.3%;
   }
 }
