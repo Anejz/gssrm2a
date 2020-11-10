@@ -21,7 +21,7 @@ body {
 }
 
 .gssrm-logo {
-  margin-left: 250px;
+  margin-left: 150px;
   width: 150px;
   padding: 0;
 }
@@ -313,6 +313,10 @@ div.desc {
 }
 
 @media only screen and (max-width: 800px) {
+  .uplinki {
+    margin-left: 10%;
+  }
+
   .navelement2 {
     margin-left: 15%;
   }
@@ -415,6 +419,10 @@ div.desc {
 }
 
 @media only screen and (max-width: 400px) {
+  gssrm-logo {
+    margin: auto;
+  }
+
   .videok {
     padding: 23px 20%;
   }
