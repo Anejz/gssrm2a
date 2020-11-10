@@ -11,14 +11,23 @@ body {
   border-bottom: #a53739 solid thick;
 }
 
+.uplinki {
+  margin-left: 50%;
+}
+
+.uplinki a {
+  margin: 10px 2%;
+  padding: 10px;
+}
+
 .gssrm-logo {
-  margin-left: 200px;
+  margin-left: 250px;
   width: 150px;
   padding: 0;
 }
 
 .navelement {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
   margin: 0 3%;
 }
