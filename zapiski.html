@@ -22,8 +22,19 @@
     <div class="header">
         <div class="uplinki">
             <a href="https://www.easistent.com/webapp#/calendar" target="_blank">eAsistent</a>
-            <a href="http://88.200.53.188/moodle2/" target="_blank">spl. učilnica</a>
             <a href="https://www.gssrm.si" target="_blank">GSŠRM</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Spletne učilnice</button>
+            <div class="dropdown-content">
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=118&section=1" target="_blank">GEO</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=59" target="_blank">ZGO</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=53" target="_blank">KEM</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=49" target="_blank">FIZ</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=89" target="_blank">MAT</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=39" target="_blank">NEM</a>
+                <a href="http://88.200.53.188/moodle2/course/view.php?id=65" target="_blank">ŠPO</a>
+            </div>
         </div>
         <img src="slike/gssrm-logo.jpg" alt="luli" class="gssrm-logo">
         <nav>
@@ -37,29 +48,79 @@
     </div>
     
     <div class="biologija">
-        <h3 class="temazapiski">BIOLOGIJA</h3>
-        <div class="gallery">
-            <a target="_blank" href="slike/bajla1.png">
-                <img src="slike/bajla1.png" alt="slika 1" width="600" height="400">
-            </a>
-            <div class="desc">ppt bajla 1</div>
-        </div>
+        <button onclick="displayContentBio()"  class="predmetbutton">BIOLOGIJA</button>
+        <div class="biocontent" id="galbio">
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla1.png">
+                    <img src="slike/bajla1.png" alt="slika 1" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 1</div>
+            </div>
 
-        <div class="gallery">
-            <a target="_blank" href="slike/bajla2.png">
-                <img src="slike/bajla2.png" alt="slika 2" width="600" height="400">
-            </a>
-            <div class="desc">ppt bajla 2</div>
-        </div>
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla2.png">
+                    <img src="slike/bajla2.png" alt="slika 2" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 2</div>
+            </div>
 
-        <div class="gallery">
-            <a target="_blank" href="slike/bajla3.png">
-                <img src="slike/bajla3.png" alt="slika 3" width="600" height="400">
-            </a>
-            <div class="desc">ppt bajla 3</div>
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla3.png">
+                    <img src="slike/bajla3.png" alt="slika 3" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 3</div>
+            </div>
         </div>
+        
     </div>
+    <script>
+        function displayContentBio() {
+          var y = document.getElementById("galbio");
+          if (y.style.display === "none") {
+            y.style.display = "block";
+          } else {
+            y.style.display = "none";
+          }
+        }
+    </script>
     
+    <div class="matematika">
+        <button class="predmetbutton" onclick="displayContentMat()">MATEMATIKA</button>
+        <div class="matcontent" id="galmat">
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla1.png">
+                    <img src="slike/bajla1.png" alt="slika 1" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 1</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla2.png">
+                    <img src="slike/bajla2.png" alt="slika 2" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 2</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="slike/bajla3.png">
+                    <img src="slike/bajla3.png" alt="slika 3" width="600" height="400">
+                </a>
+                <div class="desc">ppt bajla 3</div>
+            </div>
+        </div>
+        
+        <script>
+            function displayContentMat() {
+              var x = document.getElementById("galmat");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+    </script>
+    </div>
+    <script src="zapiskibtn.js"></script>
 
     <footer>
         <p>Naredila:</p>
