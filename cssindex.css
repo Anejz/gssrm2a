@@ -71,7 +71,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: grey;
+  background-color: rgb(61, 61, 61);
 }
 
 .gssrm-logo {
