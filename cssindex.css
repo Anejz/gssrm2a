@@ -82,6 +82,17 @@ body {
   margin-left: 150px;
   width: 150px;
   padding: 0;
+  animation-name: logo_animation;
+  animation-duration: 2s;
+}
+
+@keyframes logo_animation {
+  from {
+    margin-left: 250px;
+  }
+  to {
+    margin-left: 150px;
+  }
 }
 
 .navelement {
