@@ -84,6 +84,7 @@ body {
   padding: 0;
   animation-name: logo_animation;
   animation-duration: 2s;
+  transition: width 3s;
 }
 
 @keyframes logo_animation {
@@ -93,6 +94,10 @@ body {
   to {
     margin-left: 150px;
   }
+}
+
+.gssrm-logo:hover {
+  width: 120px;
 }
 
 .navelement {
