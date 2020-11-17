@@ -246,7 +246,7 @@ table.hovertable td {
   border-width: 1px;
   padding: 0px;
   border-style: solid;
-  border-color: #ffffff;
+  border-color: #000000;
   margin: 0;
   width: 15%;
 }
@@ -255,26 +255,22 @@ table.hovertable td {
   display: none;
 }
 
-.linkbtn:hover {
-  background-color: rgb(177, 177, 177);
-}
-
-.linkbtn {
-  padding: 23px 46%;
-  border: black solid thin;
+td a {
+  display: block;
+  text-align: center;
   background-color: #ffffff;
   margin: 0;
   text-decoration: none;
   color: black;
   font-size: 20px;
   width: 100%;
-  height: 100%;
-  transition: background-color 0.5s;
+  padding: 24px 0;
+  transition: background-color 0.4s;
   transition-timing-function: ease-out;
 }
 
-.linkbtn:hover {
-  color: #000000;
+td a:hover {
+  background-color: rgb(177, 177, 177);
 }
 
 .videok {
@@ -285,34 +281,12 @@ table.hovertable td {
   background-color: rgb(143, 233, 255);
 }
 
-.lastits {
-  padding: 23px 42%;
-}
-
 .empty {
   background-color: rgb(233, 233, 233);
-  padding: 23px 49.9%;
-  padding: 23px 49.9%;
+  padding: 35px 0;
 }
-
-.prvi {
-  border-left: none;
-}
-
-.lastkem {
-  padding: 23px 40%;
-}
-
 .empty:hover {
   background-color: rgb(233, 233, 233);
-}
-
-.lastspo {
-  padding: 23px 40.5%;
-}
-
-.lastzgo {
-  padding: 23px 39.7%;
 }
 
 .downloadi {
@@ -475,30 +449,6 @@ div.desc {
     width: 100%;
     margin: 0;
   }
-
-  .lastspo {
-    padding: 23px 30.1%;
-  }
-
-  .lastkem {
-    padding: 23px 29.3%;
-  }
-
-  .lastits {
-    padding: 23px 33.3%;
-  }
-
-  .lastzgo {
-    padding: 23px 28.7%;
-  }
-
-  .videok {
-    padding: 23px 35%;
-  }
-
-  .empty {
-    padding: 23px 49.3%;
-  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -539,13 +489,6 @@ div.desc {
     padding: 40px;
   }
 
-  .videok {
-    padding: 23px 32%;
-  }
-  .novideok {
-    padding: 23px 32%;
-  }
-
   .navbar {
     padding: 0;
     margin: 0;
@@ -561,33 +504,5 @@ div.desc {
 @media only screen and (max-width: 400px) {
   gssrm-logo {
     margin: auto;
-  }
-
-  .videok {
-    padding: 23px 20%;
-  }
-
-  .lastspo {
-    padding: 23px 25%;
-  }
-
-  .lastkem {
-    padding: 23px 29.3%;
-  }
-
-  .lastits {
-    padding: 23px 33.3%;
-  }
-
-  .lastzgo {
-    padding: 23px 0;
-  }
-
-  .videok {
-    padding: 23px 35%;
-  }
-
-  .empty {
-    padding: 23px 49.3%;
   }
 }
