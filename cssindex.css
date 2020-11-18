@@ -312,13 +312,20 @@ td a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.amongus {
+  background-color: rgb(255, 44, 44);
+  border-top-left-radius: 7em;
+  border-top-right-radius: 7em;
+}
+
 .widget a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .downloadbtn p:hover {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(175, 175, 175);
 }
 
 .downloadbtn {
