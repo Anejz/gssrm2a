@@ -153,14 +153,14 @@ body {
 }
 
 .novice {
-  display: inline-block;
+  display: none;
   width: 16%;
   height: 550px;
 }
 
 .banner {
   display: block;
-  width: 82.3%;
+  width: 100%;
   float: left;
   margin-right: 10px;
   transition: filter 2s;
@@ -360,6 +360,7 @@ td a:hover {
 .meme {
   height: 300px;
   border: solid black;
+  display: none;
 }
 
 div.gallery {
